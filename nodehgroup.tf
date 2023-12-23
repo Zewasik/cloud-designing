@@ -32,13 +32,13 @@ resource "aws_eks_node_group" "eks_nodegroup" {
   disk_size     = 10
 
   scaling_config {
-    desired_size = 12
-    max_size     = 12
-    min_size     = 6
+    desired_size = 8
+    max_size     = 8
+    min_size     = 4
   }
 
   update_config {
-    max_unavailable = 6
+    max_unavailable = 4
   }
 
   instance_types = ["t2.micro"]
