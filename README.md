@@ -1,8 +1,6 @@
-# cloud-design
+# cloud-designing
 
 This documentation will help you understand the architecture, setup, and usage of the movie streaming platform built using microservices infrastructure.
-
-[Audit questions](https://github.com/01-edu/public/tree/master/subjects/devops/cloud-design/audit)
 
 ## Table of Contents
 
